@@ -7,9 +7,8 @@ const app =express();
 // database connection part**************
 var con = mysql.createConnection({
     host: "localhost",
-    user: "root",
-    password: "",
-    database: "mydb"
+    user: "sahan",
+    password: "sahan1997",
   });
   
   con.connect(function(err) {
